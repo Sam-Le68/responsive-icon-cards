@@ -69,7 +69,7 @@ ul {
 
   html {
     font-family: sans-serif;
-    line-height: .5;
+    line-height: inherit;
     font-size: 110%;
   }
 
@@ -84,7 +84,7 @@ ul {
 
   html {
     font-family: sans-serif;
-    line-height: 1;
+    line-height: inherit;
     font-size: 120%;
   }
 
