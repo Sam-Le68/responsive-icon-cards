@@ -18,6 +18,11 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .cards {
   display: block;
 }
@@ -45,12 +50,58 @@ img {
   font-size: 1.5rem;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .cards {
+    display: block;
+    width: 100%
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .cards {
     display: inline-block;
-    width: 32%
+    width: 32%;
   }
 
+}
+
+@media only screen and (min-width: 60em) {
+
+  .cards {
+    display: inline-block;
+    width: 32%;
+  }
+
+  .img-card {
+    display: block;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .card {
+    display: flex;
+    wrap: nowrap;
+  }
+
+  .cards {
+    display: flex;
+    flex-basis: 32%;
+    align-items: center;
+  }
+
+  .card-body p {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 20em;
+  }
 
 }
