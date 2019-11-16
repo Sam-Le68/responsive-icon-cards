@@ -23,6 +23,11 @@ ul {
   padding: 0;
 }
 
+h2 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
 .cards {
   display: block;
   list-style-type: none;
@@ -32,6 +37,7 @@ ul {
   display: block;
   width: 100%;
   max-width: 50px;
+  margin: 0 auto;
 }
 
 .card-img img {
@@ -49,6 +55,7 @@ ul {
 
 .card-body p {
   font-size: 1rem;
+  margin-top: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -69,7 +76,7 @@ ul {
 
   html {
     font-family: sans-serif;
-    line-height: inherit;
+    line-height: 1.4;
     font-size: 110%;
   }
 
@@ -84,7 +91,7 @@ ul {
 
   html {
     font-family: sans-serif;
-    line-height: inherit;
+    line-height: 1.5;
     font-size: 120%;
   }
 
